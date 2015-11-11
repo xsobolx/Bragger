@@ -20,4 +20,8 @@
     <string name="password_hint">Пароль</string>
     <string name="login_button_label">Авторизоваться</string>
     <string name="sign_up_text">Зарегистрироваться!</string>
+    <string name="signup_activity_label">SignUp</string>
+    <string name="email">email_hint_label</string>
+    <string name="email_hint_label">email</string>
+    <string name="signup_button_label">Зарегистрироваться</string>
 </resources>
