@@ -1,7 +1,9 @@
-package xsobolx.com.bragger;
+package xsobolx.com.bragger.UI;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import xsobolx.com.bragger.R;
 
 public class SignUpActivity extends AppCompatActivity {
 

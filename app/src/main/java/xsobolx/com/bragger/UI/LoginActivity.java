@@ -1,4 +1,4 @@
-package xsobolx.com.bragger;
+package xsobolx.com.bragger.UI;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
@@ -7,6 +7,8 @@ import android.view.View;
 
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import xsobolx.com.bragger.R;
+import xsobolx.com.bragger.SignUpActivity;
 
 public class LoginActivity extends AppCompatActivity {
 
