@@ -24,4 +24,11 @@
     <string name="email">email_hint_label</string>
     <string name="email_hint_label">email</string>
     <string name="signup_button_label">Зарегистрироваться</string>
+    <string name="signup_error_message">Все поля должны быть заполнены!</string>
+    <string name="logoutAction">Log out</string>
+    <string name="title_section1">Inbox</string>
+    <string name="title_section2">Friends</string>
+    <string name="title_section3">SECTION 3</string>
+    <string name="empty_inbox_label">No new messages</string>
+    <string name="empty_friends_label">Add friends to begin!</string>
 </resources>
