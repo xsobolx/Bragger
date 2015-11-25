@@ -24,6 +24,7 @@ import com.parse.ParseAnalytics;
 import com.parse.ParseObject;
 import com.parse.ParseUser;
 
+import butterknife.ButterKnife;
 import xsobolx.com.bragger.R;
 import xsobolx.com.bragger.UI.LoginActivity;
 import xsobolx.com.bragger.adapters.SectionsPagerAdapter;
@@ -52,6 +53,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         ParseAnalytics.trackAppOpenedInBackground(getIntent());
 
@@ -108,9 +110,14 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         //noinspection SimplifiableIfStatement
-        if (id == R.id.action_logout) {
-            ParseUser.logOut();
-            navigateToLogin();
+        switch (id){
+            case (R.id.action_logout):
+                ParseUser.logOut();
+                navigateToLogin();
+                return true;
+            case (R.id.action_edit_friends):
+                Intent intent = new Intent(this, EditFriendsActivity.class);
+                startActivity(intent);
         }
 
         return super.onOptionsItemSelected(item);

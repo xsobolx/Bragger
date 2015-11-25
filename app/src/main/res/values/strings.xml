@@ -2,13 +2,13 @@
     <string name="app_name">Bragger</string>
     <string name="action_settings">Settings</string>
     <string name="section_format">Hello World from section: %1$d</string>
-    <string name="title_activity_login">Sign in</string>
+    <string name="title_activity_login">Войти</string>
 
     <!-- Strings related to login -->
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in or register</string>
-    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_sign_in_short">Войти</string>
     <string name="error_invalid_email">This email address is invalid</string>
     <string name="error_invalid_password">This password is too short</string>
     <string name="error_incorrect_password">This password is incorrect</string>
@@ -20,15 +20,17 @@
     <string name="password_hint">Пароль</string>
     <string name="login_button_label">Авторизоваться</string>
     <string name="sign_up_text">Зарегистрироваться!</string>
-    <string name="signup_activity_label">SignUp</string>
+    <string name="signup_activity_label">Регистрация</string>
     <string name="email">email_hint_label</string>
     <string name="email_hint_label">email</string>
     <string name="signup_button_label">Зарегистрироваться</string>
     <string name="signup_error_message">Все поля должны быть заполнены!</string>
-    <string name="logoutAction">Log out</string>
-    <string name="title_section1">Inbox</string>
-    <string name="title_section2">Friends</string>
-    <string name="title_section3">SECTION 3</string>
-    <string name="empty_inbox_label">No new messages</string>
-    <string name="empty_friends_label">Add friends to begin!</string>
+    <string name="logoutAction">Выйти</string>
+    <string name="title_section1">Входящие</string>
+    <string name="title_section2">Мои друзья</string>
+    <string name="empty_inbox_label">Нет новых сообщений</string>
+    <string name="empty_friends_label">Добавте друзей для начала!</string>
+    <string name="menu_edit_friends_label">Настроить список друзей</string>
+    <string name="edit_friends_activity_label">Настроить список друзей</string>
+    <string name="error_title">Что-то пошло не так…</string>
 </resources>

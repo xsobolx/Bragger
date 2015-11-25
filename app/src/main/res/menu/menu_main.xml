@@ -6,4 +6,7 @@
           android:title="@string/logoutAction"
           android:orderInCategory="100"
           app:showAsAction="never"/>
+
+    <item android:id="@+id/action_edit_friends"
+          android:title="@string/menu_edit_friends_label"/>
 </menu>

@@ -5,7 +5,6 @@ import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.view.Window;
 import android.widget.EditText;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
@@ -13,7 +12,6 @@ import android.widget.RelativeLayout;
 import com.parse.LogInCallback;
 import com.parse.ParseException;
 import com.parse.ParseUser;
-import com.parse.SignUpCallback;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -67,7 +65,7 @@ public class LoginActivity extends AppCompatActivity {
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
                     } else {
-                        Snackbar.make(mLoginLayout, e.getMessage(), Snackbar.LENGTH_LONG).show();
+                        Snackbar.make(mLoginLayout, e.getLocalizedMessage(), Snackbar.LENGTH_LONG).show();
                     }
                 }
             });

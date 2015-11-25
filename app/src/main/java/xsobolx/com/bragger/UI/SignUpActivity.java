@@ -68,7 +68,7 @@ public class SignUpActivity extends AppCompatActivity {
                         intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK);
                         startActivity(intent);
                     } else {
-                        Snackbar.make(mSignUpLayout, e.getMessage(), Snackbar.LENGTH_LONG).show();
+                        Snackbar.make(mSignUpLayout, e.getLocalizedMessage(), Snackbar.LENGTH_LONG).show();
                     }
                 }
             });

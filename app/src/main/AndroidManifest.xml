@@ -9,10 +9,9 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
-
     <application
-        android:allowBackup="true"
         android:name=".BraggerApplication"
+        android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -31,11 +30,23 @@
         <activity
             android:name=".UI.LoginActivity"
             android:label="@string/title_activity_login"
-            android:screenOrientation="portrait"
-            android:parentActivityName=".UI.MainActivity">
+            android:parentActivityName=".UI.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MainActivity" />
         </activity>
-        <activity android:name=".UI.SignUpActivity"
+        <activity
+            android:name=".UI.SignUpActivity"
             android:label="@string/signup_activity_label"
+            android:parentActivityName=".UI.MainActivity"
+            android:screenOrientation="portrait" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".UI.MainActivity" />
+        </activity>
+        <activity android:name=".UI.EditFriendsActivity"
+            android:label="@string/edit_friends_activity_label"
             android:parentActivityName=".UI.MainActivity"
             android:screenOrientation="portrait">
         </activity>
